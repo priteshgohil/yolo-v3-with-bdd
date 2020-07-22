@@ -90,7 +90,7 @@ for i in range(num_of_images):
             class_label_code = class_dict[current_object_label]
             print("class_label_code: ", class_label_code)
             # Prepare the line to be written down to txt file
-            line_to_be_written = str(class_label_code) + " " + str(bbox_x_normalized) + " " + str(bbox_y_normalized) + " " + str(bbox_height_normalized) + " " + str(bbox_width_normalized)
+            line_to_be_written = str(class_label_code) + " " + str(bbox_x_normalized) + " " + str(bbox_y_normalized) + " " + str(bbox_width_normalized) + " " + str(bbox_height_normalized)
             print("line_to_be_written: ", line_to_be_written)
             f.write(line_to_be_written + "\n")
 
